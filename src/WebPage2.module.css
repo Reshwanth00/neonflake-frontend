@@ -1,0 +1,19 @@
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.innerContainer{
+    width: calc(80% - 100px);
+    height: 650px;
+    padding: 50px;
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    place-items: center; /* Center the content within each grid item */
+}
